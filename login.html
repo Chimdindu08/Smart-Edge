@@ -15,6 +15,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 0 5px;
     }
     body, html{
       overflow-x: hidden;
@@ -49,12 +50,20 @@
       color: black;
       margin-bottom: 30px;
     }
-    .tables2 input {
-      background-color: black;
-      font-size: 16px;
-      text-align: center;
-      color: white;
+    .tables2 button {
+      padding: 12px 265px;
+        border-radius: 10px;
+        background-color: black;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+        margin-bottom: 30px;
     }
+     .tables3 button{
+        padding: 12px 260px;
+        background-color: #f5f5f5;
+        color: black; 
+      }
     .text {
       text-align: center;
       font-size: 18px;
@@ -68,8 +77,14 @@
         font-size: 38px;
        }
        .tables input{
-        width: 400px;
+        width: 370px;
         height: 45px;
+       }
+       .tables2 button{
+        padding: 13px 150px;
+       }
+       .tables3 button{
+        padding: 13px 145px;
        }
     }
 
@@ -78,8 +93,14 @@
         font-size: 35px;
       }
       .tables input{
-        width: 385px;
+        width: 315px;
       }
+      .tables2 button{
+        padding: 13px 127px;
+       }
+       .tables3 button{
+        padding: 13px 125px;
+       }
     }
 
     @media (max-width: 375px) {
@@ -87,7 +108,7 @@
         font-size: 35px;
       }
       .tables input{
-        width: 350px;
+        width: 330px;
       }
     }
 
@@ -118,10 +139,10 @@
           </div>
           <div class="tables2">
             <p>Password</p>
-            <a href="/second.html"> <input type="text" placeholder="Login Now" /></a>
+            <a href="/second.html"> <button>Login Now</button></a>
           </div>
-          <div class="tables1">
-            <input type="text" placeholder=" Sign In With Google" />
+          <div class="tables3 tables2">
+            <button>Signup Now</button>
           </div>
           <div class="text">
             <p>Don't have an account?<a href="/signup.html">Sign up for free</a></p>
